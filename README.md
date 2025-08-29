@@ -1,5 +1,4 @@
-# Project Title
-Tuah Tracker
+# Tuah Tracker
 ### Prerequesites
 As of right now this project requires going through the discord developer portal and creating your own bot and obtaining your own 'DISCORD_TOKEN'.
 ## Project Description
