@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+import os
 import discord
 
 class MyClient(discord.Client):
@@ -15,4 +17,6 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('MTQxMDQ4NjU4MTgwMjA0MTQzNw.GcFzQO.eO4MuzqWiflcB5zO8JRYzn1xpQkOIrYS7KMRNg')
+load_dotenv()
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+client.run('DISCORD_TOKEN')
